@@ -1,6 +1,6 @@
 # Contact tracing for HIV-1 phylodynamics and inference
 
-Code from _Kupperman et al._ "TITLE" (2023). Under review.
+Code from _Kupperman et al._ "Predicting Impacts of Contact Tracing on Epidemiological Inference from Phylogenetic Data" (2023). Under review.
 
 This repository contains codes and supplementary materials for the manuscript using R and Python 3. Codes to generate figures 4 and 7 in the manuscript.
 
