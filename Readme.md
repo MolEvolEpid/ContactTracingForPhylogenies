@@ -14,7 +14,7 @@ conda create -n ContactTracing python=3.10 numpy scipy matplotlib pandas seaborn
 ```
 Install SEEPS from Github using devtools. This may require installing additional system dependencies.
 ```bash
-Rscript -e "install.packages(c('devtools',"treebalance"))"
+Rscript -e "install.packages(c('devtools','treebalance'))"
 Rscript -e "devtools::install_git('git@github.com:MolEvolEpid/SEEPS.git', ref='feature/ref_branching_models')"
 ```
 
