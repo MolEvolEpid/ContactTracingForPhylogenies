@@ -10,12 +10,12 @@ This repository contains codes and supplementary materials for the manuscript us
 Install requirements into a virtual environment:
 
 ```bash
-conda create -n ContactTracing python=3.10 numpy scipy matplotlib pandas seaborn r-base r-future r-ape r-treebalance r-phangorn -c conda-forge
+conda create -n ContactTracing python=3.10 numpy scipy matplotlib pandas seaborn r-base r-future r-ape r-phangorn -c conda-forge
 ```
 Install SEEPS from Github using devtools. This may require installing additional system dependencies.
 ```bash
-> Rscript -e "install.packages('devtools')"
-> Rscript -e "devtools::install_git('git@github.com:MolEvolEpid/SEEPS.git', ref='feature/ref_branching_models')"
+Rscript -e "install.packages(c('devtools','treebalance'))"
+Rscript -e "devtools::install_git('git@github.com:MolEvolEpid/SEEPS.git', ref='feature/ref_branching_models')"
 ```
 
 ### Figure 4
